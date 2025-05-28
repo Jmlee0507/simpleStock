@@ -8,7 +8,7 @@ Streamlit을 활용한 **주식 투자 보고서 생성 웹 앱**입니다.
 
 ## 🚀 데모 사이트
 
-👉 [앱 실행하기](https://share.streamlit.io/your-username/your-repo-name/main/app.py)
+👉 [앱 실행하기](https://share.streamlit.io/Jmlee0507/simpleStock/main/app.py)
 
 > ※ 실제 URL은 GitHub에 푸시한 후 Streamlit Cloud에서 생성됩니다.
 
@@ -31,27 +31,6 @@ Streamlit을 활용한 **주식 투자 보고서 생성 웹 앱**입니다.
 | `Streamlit` | 웹 앱 UI 프레임워크 |
 | `yfinance` | 실시간 주식 데이터 수집 |
 | `OpenAI GPT` | 투자 보고서 자동 생성 |
-| `Pandas` | 데이터 처리 및 출력 포맷 |
-
----
-
-## ⚙️ 설치 방법
-
-```bash
-# 1. 리포지토리 클론
-git clone https://github.com/your-username/stock-report-app.git
-cd stock-report-app
-
-# 2. 가상환경 설치 (선택)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 3. 의존성 설치
-pip install -r requirements.txt
-
-# 4. 실행
-streamlit run app.py
-```
 
 ---
 
@@ -81,8 +60,7 @@ streamlit run app.py
 
 ## 🧑‍💻 개발자
 
-- 👨‍💻 GitHub: [your-username](https://github.com/your-username)
-- 📫 문의: your.email@example.com
+- 👨‍💻 GitHub: [Jmlee0507](https://github.com/Jmlee0507)
 
 ---
 
