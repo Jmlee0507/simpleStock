@@ -28,8 +28,7 @@ def investment_report(company:str, symbol:str)-> str:
     llm = ChatOpenAI(model='gpt-4o-mini', temperature=0)
 
     chain = prompt | llm | StrOutputParser()
-    company = 'nvidia'
-    symbol = 'NVDA'
+
     stock = Stock(symbol)
     result = chain.invoke({
         "company" : company,
