@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from stock_info import Stock 
 
-def investment_report():
+def investment_report(company:str, symbol:str)-> str:
     prompt = ChatPromptTemplate.from_messages([
         ("system", """
             Want assistance provided by qualified individuals enabled with experience on understanding charts 
